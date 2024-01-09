@@ -1,0 +1,59 @@
+<script>
+document.write("<br>Gelencsér Levente")
+document.write("<br>#Team13")
+document.write("<br>HTML:90")
+document.write("<br>CSS:85")
+document.write("<br>JS:60")
+document.write("<br>")
+let a=Number(prompt("adjon meg egy számot"))
+let b=Number(prompt("adja meg hanyadik hatványra szeretné emelni"))
+let eredmeny=(a**b)
+document.write(`A ${a}<sup>${b}</sup>=${eredmeny}`)
+document.write("<br>")
+let randomszam=Math.round(Math.random()*(500-0))+0;
+if(randomszam%2==0){
+document.write(`${randomszam}`)}
+if(randomszam!=500){
+	document.write(`A generált számunk: ${generaltSzam+1}`)}
+else{
+	document.write(`A generált számunk: ${generaltSzam-1}`);
+}
+document.write("<br>")
+let eletkor=Number(prompt("Add meg az életkorod:"));
+if(eletkor>=0 && eletkor<6){
+	document.write(`${eletkor} kisgyermekkor`);
+} 
+else if(eletkor>=6 && eletkor<12){
+	document.write(`${eletkor} évesen gyermekkor`);
+}
+else if(eletkor>=12 && eletkor<16){
+	document.write(`${eletkor} évesen serdülőkor`);
+}
+else if(eletkor>=16 && eletkor<20){
+	document.write(`${eletkor} évesen ifjúkor`);
+}
+else if(eletkor>=20 && eletkor<30){
+	document.write(`${eletkor} évesen fiatal felnőtt kor`);
+}
+else if(eletkor>=30 && eletkor<60){
+	document.write(`${eletkor} évesen felnőtt kor`);
+}
+else  if(eletkor>=60 && eletkor<120){
+	document.write(`${eletkor} évesen aggkor`);
+}
+else{
+	document.write(`${eletkor} hibás`);
+}
+let c=Number(prompt("adjon meg egy számot"))
+let d=Number(prompt("adja meg az osztót"))
+if(c%d==0){
+document.write("osztható a két megadott szám")}
+else{
+document.write("nem osztható")
+}
+for(let i=1;i<=10;i++){
+	document.write(i*i+",");
+}
+
+
+</script>
